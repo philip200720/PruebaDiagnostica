@@ -1,7 +1,7 @@
 package org.pruebadiagnostica.dispositivos;
 
 public class Telefono extends Dispositivos {
-    public String tipo;
+    private String tipo;
 
     public Telefono(String marca, String modelo, int anio, String tipo) {
         super(marca, modelo, anio);

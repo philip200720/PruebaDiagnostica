@@ -13,13 +13,13 @@ public abstract class Dispositivos {
 
     abstract void encender();
 
-    void encender(int voltaje) {
+    public void encender(int voltaje) {
         System.out.println("Encendido con " + voltaje + "Volts.");
     }
 
-    void mostrarInformacion() {
+    public void mostrarInformacion() {
         System.out.println("Marca: " + marca +
         "\n Modelo: " + modelo +
-        "\n Año:" + anio);
+        "\n Año:" + anio + "\n");
     }
 }
