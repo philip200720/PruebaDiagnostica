@@ -1,9 +1,7 @@
-package org.pruebadiagnostica.model;
+package org.pruebadiagnostica.Figuras;
 
 public abstract class Forma {
-    private String color;
-
-    public abstract void calcularArea();
+    String color;
 
     public String getColor() {
         return color;
@@ -11,5 +9,7 @@ public abstract class Forma {
 
     public void setColor(String color) {
         this.color = color;
-    }    
+    }
+
+    abstract double calcularArea();
 }
