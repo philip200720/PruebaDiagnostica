@@ -1,4 +1,4 @@
-package org.pruebadiagnostica.Figuras;
+package org.pruebadiagnostica.figuras;
 
 public abstract class Forma {
     String color;

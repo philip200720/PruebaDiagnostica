@@ -1,4 +1,4 @@
-package org.pruebadiagnostica.Figuras;
+package org.pruebadiagnostica.figuras;
 
 public class Triangulo extends Forma{
     private double base;

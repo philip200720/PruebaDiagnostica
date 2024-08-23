@@ -1,4 +1,4 @@
-package org.pruebadiagnostica.Figuras;
+package org.pruebadiagnostica.figuras;
 
 public class Cuadrado extends Forma{
     private double lado;

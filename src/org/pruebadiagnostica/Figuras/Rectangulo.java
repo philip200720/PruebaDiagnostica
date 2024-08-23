@@ -1,4 +1,4 @@
-package org.pruebadiagnostica.Figuras;
+package org.pruebadiagnostica.figuras;
 
 public class Rectangulo extends Forma{
     private double ancho;
