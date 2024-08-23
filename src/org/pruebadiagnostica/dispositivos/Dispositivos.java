@@ -13,7 +13,7 @@ public abstract class Dispositivos {
 
     abstract void encender();
 
-    public void encender(int voltaje) {
+    public void encender(double voltaje) {
         System.out.println("Encendido con " + voltaje + "Volts.");
     }
 
